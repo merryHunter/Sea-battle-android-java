@@ -1,0 +1,4 @@
+The main flaw in this implementation is absence one-deck ships.Also, random ships placed only to not bordered cell.
+1. Checking touching ships in BattleField.class. There is touching only inside field ,
+ so ships that might be placed at border of field , they can't be placed.
+2. Multitheading: during player is placing ships, pc generate own placement.
